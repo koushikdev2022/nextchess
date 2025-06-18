@@ -6,6 +6,7 @@ import ourcourseBanner from "../assets/imagesource/ourcourse_banner.png";
 import groupClass from "../assets/imagesource/Group-class.png";
 import girlPic from "../assets/imagesource/girl_pic.jpg";
 import certificateCompletion from "../assets/imagesource/certificate_completion.png";
+import c4chess_certificate from "../assets/imagesource/c4chess_certificate.jpg";
 import Image from 'next/image';
 
 const courses = () => {
@@ -29,14 +30,18 @@ const courses = () => {
                  <div className="lg:w-6/12 lg:pl-10">
                    <h2 className="text-[#0B0B2C] text-3xl lg:text-[40px] lg:leading-[50px] font-extrabold capitalize pb-4 ${plusJakartaSans.className}">The Group Chess Class</h2>
                    <p className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}">Our group chess classes are interactive live sessions where the instructor introduces a chess concept and assigns a corresponding practice task. Students then present their understanding, apply the concept, and ask questions.</p>
-                   <p className="text-[#52b69a] text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-5 ${plusJakartaSans.className} font-bold">Benefits of the Group Class for Your Child:</p>
-                   <ul className='pl-5'>
-                      <li className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className} list-disc"><strong>Interactivity:</strong> By observing how other students understand and apply concepts, your child will gain a deeper understanding of chess.</li>
-                      <li className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className} list-disc"><strong>Positive Interdependence:</strong> Students learn the importance of interdependence, punctuality, and completing assignments. They understand how their behavior impacts the group.</li>
-                      <li className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className} list-disc"><strong>Individual Accountability:</strong> Despite being in a group, each student is responsible for their work, assignment completion, and mastery of the material.</li>
-                      <li className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className} list-disc"><strong>Self-Confidence and Esteem:</strong> As students grow in their understanding of chess and present their moves to peers, their self-esteem will increase.</li>
-                   </ul>
-                   <p className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className} pb-10">The Academy aims to achieve two key goals with the group class: educating students on chess concepts and instilling the values, principles, and attitudes of a professional chess player that are applicable in everyday life.</p>
+                   <p className="text-[#52b69a] text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-5 ${plusJakartaSans.className} font-bold">Learn. Compete. Grow—Together.</p>
+                   <div className='mb-5'>
+                        <ul>
+                          <li className='text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}'>🧑‍🤝‍🧑 Interactive Group Sessions: Learn alongside peers for an engaging experience</li>
+                          <li className='text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}'>♟️ Level-Based Batches: Students are grouped by skill level for focused learning</li>
+                          <li className='text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}'>🧩 Concept Reinforcement: Regular practice games, puzzles, and live discussions</li>
+                          <li className='text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}'>🧑‍🏫 Coach-Led Strategy Sessions: Learn patterns, plans, and tricks with expert guidance</li>
+                          <li className='text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}'>❎ Doubt Solving: Real-time Q&A and personalized attention within group setting</li>
+                          <li className='text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}'>🏅 Peer Motivation: Competitive yet supportive environment to inspire growth</li>
+                          <li className='text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}'>💰 Affordable Learning: Quality coaching at a lower cost per session</li>
+                        </ul>
+                    </div>
                    <Link className="text-white bg-[#52B69A] font-medium text-xs lg:text-base rounded-[2px] px-3 py-2 lg:px-9 lg:py-3 border-2 border-[#52B69A] hover:bg-white hover:text-[#52B69A]" href="/" passHref>Enroll Now</Link>
                  </div>
               </div>
@@ -49,9 +54,21 @@ const courses = () => {
               <div className="lg:flex">
                  <div className="lg:w-6/12 lg:pr-10">
                    <h2 className="text-[#0B0B2C] text-3xl lg:text-[40px] lg:leading-[50px] font-extrabold capitalize pb-4 ${plusJakartaSans.className}">The Private Chess Class</h2>
-                   <p className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-8 ${plusJakartaSans.className}">Our private class offers One to One session. During these sessions, the instructor introduces a chess concept and assigns a related practice task. The student then presents their understanding, applies the concept, and asks questions.</p>
+                   <div className='mb-5'>
+                      <p className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-8 ${plusJakartaSans.className}">1-on-1 coaching for focused growth and rapid improvement</p>
+                      <ul>
+                        <li className='text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}'>🎯 Fully Personalized: Lessons tailored to the student’s level, goals, and learning speed</li>
+                        <li className='text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}'>🧑‍🏫 Expert Coaches: Learn from FIDE-rated, experienced professionals</li>
+                        <li className='text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}'>📊 Progress Tracking: Regular assessments and feedback to monitor improvement</li>
+                        <li className='text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}'>♟️ Game Analysis: Detailed reviews of student’s games to fix mistakes and build strategy</li>
+                        <li className='text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}'>🧠 Deep Concept Clarity: In-depth explanation of tactics, openings, and endgames</li>
+                        <li className='text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}'>🕒 Flexible Scheduling: Classes available at convenient times across time zones</li>
+                        <li className='text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}'>🏆 Tournament Prep Support: Special focus on performance in real competitions</li>
+                      </ul>
+                  </div>
                    <Link className="text-white bg-[#52B69A] font-medium text-xs lg:text-base rounded-[2px] px-3 py-2 lg:px-9 lg:py-3 border-2 border-[#52B69A] hover:bg-white hover:text-[#52B69A]" href="/" passHref>Enroll Now</Link>
                  </div>
+
                  <div className="w-6/12">
                    <Image src={girlPic} alt='girlPic' className="" />
                  </div>
@@ -64,7 +81,7 @@ const courses = () => {
           <div className="max-w-6xl mx-auto lg:py-4 px-4 lg:px-0">
               <div className="lg:flex">
                  <div className="w-6/12">
-                   <Image src={certificateCompletion} alt='certificateCompletion' className="" />
+                   <Image src={c4chess_certificate} alt='c4chess_certificate' className="" />
                  </div>
                  <div className="lg:w-6/12 lg:pl-10 flex justify-center items-center">
                    <div>

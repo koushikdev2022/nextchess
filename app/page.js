@@ -80,8 +80,12 @@ export default function Home() {
                   <div className="lg:w-6/12 lg:pl-10">
                      <span className="text-[#52B69A] text-[18px] font-bold uppercase pb-4 block ${roboto.className}">Why Choose us</span>
                      <h2 className="text-[#0B0B2C] text-3xl lg:text-[60px] lg:leading-[63px] font-extrabold capitalize pb-4 ${plusJakartaSans.className}">We are more than just <span className="text-[#52B69A]">chess</span> lovers</h2>
-                     <p className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}">At C4Chess, we&apos;re more than chess lovers  we&apos;re your partners in mastering the game. Whether you&apos;re a beginner or a competitive player, our experienced team of players, trainers, and analysts is here to support your chess journey at every level.</p>
-                     <p className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-8 ${plusJakartaSans.className}">At C4CHESS, it&apos;s more than moves  it&apos;s a chess adventure. Whether you&apos;re a pawn or a queen, let&apos;s conquer the 64 squares together!</p>
+                     <p className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}">At C4Chess, we combine passion with precision. Our scientifically designed, level-wise
+curriculum doesn&apos;t just teach chess—it strengthens your child&apos;s memory, focus, and
+analytical thinking.</p>
+                     <p className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-8 ${plusJakartaSans.className}">Backed by expert coaches, regular progress tracking, and a supportive
+learning environment, we ensure your child grows both on and off the board. Trusted by
+parents across the globe, C4Chess is where champions begin their journey.</p>
                      <Link className="text-white bg-[#52B69A] font-medium text-xs lg:text-base rounded-[2px] px-3 py-2 lg:px-9 lg:py-3 border-2 border-[#52B69A] hover:bg-white hover:text-[#52B69A]" href="/" passHref>Register Now (Free Trail)</Link>
                   </div>
                </div>
@@ -96,7 +100,9 @@ export default function Home() {
                <div className="top_title_section text-center mb-6">
                   <span className="text-[#D9ED92] text-[18px] font-bold uppercase pb-4 block ${roboto.className}">OUR CHESS</span>
                   <h2 className="text-white text-3xl lg:text-[60px] lg:leading-[63px] font-extrabold capitalize pb-4 ${plusJakartaSans.className}">Courses and Learning</h2>
-                  <p className="text-white font-medium text-base lg:text-[18px] leading-[28px] pb-10 ${plusJakartaSans.className} lg:px-20">Develop confidence, composure under pressure and the discipline needed to be a champ. This is the club you&apos;ve been looking for.</p>
+                  <p className="text-white font-medium text-base lg:text-[18px] leading-[28px] pb-10 ${plusJakartaSans.className} lg:px-20">At C4Chess, we don’t just teach chess—we build thinkers. Our structured, level-wise courses
+are designed to support every stage of a child’s chess journey with a blend of coaching, play,
+and progress tracking.</p>
                </div>
                <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-20">
                   <div className="text-center">
@@ -145,16 +151,20 @@ export default function Home() {
                      <div className="level_up_process_cont_section lg:w-8/12 pt-2">
                         <ul>
                            <li>
-                              <h3 className="text-xl lg:text-[26px] leading-[30px] text-[#403B3B] pb-3 font-bold ${plusJakartaSans.className}">Executive Level</h3>
-                              <p className="text-base lg:text-[18px] leading-[24px] text-[#69697B] font-medium ${plusJakartaSans.className}">Positional Understanding for enhancing calculation skill and preparation for rated tournament</p>
+                              <h3 className="text-xl lg:text-[26px] leading-[30px] text-[#403B3B] pb-3 font-bold ${plusJakartaSans.className}">BASIC</h3>
+                              <p className="text-base lg:text-[18px] leading-[24px] text-[#69697B] font-medium ${plusJakartaSans.className}">For new learners discovering the magic of chess. We build strong foundations
+                              with core concepts, fun activities, and early tactical skills.</p>
                            </li>
                            <li>
-                              <h3 className="text-xl lg:text-[26px] leading-[30px] text-[#403B3B] pb-3 font-bold ${plusJakartaSans.className}">Transition Level</h3>
-                              <p className="text-base lg:text-[18px] leading-[24px] text-[#69697B] font-medium ${plusJakartaSans.className}">Tactical understanding & implementation and preparation for tournament</p>
+                              <h3 className="text-xl lg:text-[26px] leading-[30px] text-[#403B3B] pb-3 font-bold ${plusJakartaSans.className}">TRANSITION</h3>
+                              <p className="text-base lg:text-[18px] leading-[24px] text-[#69697B] font-medium ${plusJakartaSans.className}">For growing players aiming to sharpen their strategy and begin
+competitive play. FIDE concepts, deeper openings, and critical thinking take center
+stage.</p>
                            </li>
                            <li>
-                              <h3 className="text-xl lg:text-[26px] leading-[30px] text-[#403B3B] pb-3 font-bold ${plusJakartaSans.className}">Basic Level</h3>
-                              <p className="text-base lg:text-[18px] leading-[24px] text-[#69697B] font-medium ${plusJakartaSans.className}">Introduction with chess & basic understanding</p>
+                              <h3 className="text-xl lg:text-[26px] leading-[30px] text-[#403B3B] pb-3 font-bold ${plusJakartaSans.className}">EXECUTIVE</h3>
+                              <p className="text-base lg:text-[18px] leading-[24px] text-[#69697B] font-medium ${plusJakartaSans.className}">A highly personalized, tournament-focused program for serious players
+                              aiming for 2000+ FIDE rating, national titles, and elite competitions.</p>
                            </li>
                         </ul>
                      </div>
@@ -227,12 +237,13 @@ export default function Home() {
             <div className="max-w-6xl mx-auto lg:py-4 px-4 lg:px-0">
                <div className="lg:flex">
                   <div className="lg:w-6/12 pl-0 mb-8">
-                     <h2 className="text-white text-3xl lg:text-[46px] lg:leading-[50px] font-bold pb-4 ${plusJakartaSans.className}">Enroll today for your free trial class</h2>
-                     <p className="text-[#8896AB] font-medium text-base lg:text-[18px] leading-[28px] pb-0 ${plusJakartaSans.className}">Join a small, interactive group of kids to learn chess. Our course structures are designed to provide maximum knowledge and allow for flexible, steady-paced learning.</p>
+                     <h2 className="text-white text-3xl lg:text-[46px] lg:leading-[55px] font-bold pb-4 ${plusJakartaSans.className}">Your First Move to Mastery Starts Here <br></br> <span className="text-[#52B69A] text-4xl">Book Your Free Demo Today!</span></h2>
+                     <p className="text-[#8896AB] font-medium text-base lg:text-[18px] leading-[28px] pb-0 ${plusJakartaSans.className}">Experience our world-class coaching, engaging curriculum, and live gameplay features—all at zero cost.
+                     No commitment, just pure chess learning to see how far your child can go!</p>
                   </div>
                   <div className="lg:w-6/12 flex justify-center lg:justify-end items-center">
                      <div>
-                        <Link className="text-white bg-[#52B69A] font-medium text-xs lg:text-base rounded-[2px] px-3 py-2 lg:px-9 lg:py-3 border-2 border-[#52B69A] hover:bg-white hover:text-[#52B69A]" href="/" passHref>Enroll Now</Link>
+                        <Link className="text-white bg-[#52B69A] font-medium text-xs lg:text-base rounded-[2px] px-3 py-2 lg:px-9 lg:py-3 border-2 border-[#52B69A] hover:bg-white hover:text-[#52B69A]" href="/" passHref>Book Your Free Demo</Link>
                      </div>
                   </div>
                </div>
@@ -252,7 +263,7 @@ export default function Home() {
                            <>
                               <div className={`${index % 2 == 0 ? "bg-white shadow-2xl rounded-[10px] lg:w-4/12 p-8 mb-6 lg:mb-0" : "bg-[#168AAD] shadow-2xl rounded-[10px] lg:w-4/12 p-8 mb-6 lg:mb-0"}`}>
                                  <h3 className={`${index % 2 == 0 ? "text-black text-[18px] leading-[18px] font-semibold ${plusJakartaSans.className} pb-1" : "text-white text-[18px] leading-[18px] font-semibold ${plusJakartaSans.className} pb-1"}`}>{plans?.planName}</h3>
-                                 <p className={`${index % 2 == 0 ? "${plusJakartaSans.className} text-xs font-semibold text-[#656565]" : "${plusJakartaSans.className} text-xs font-semibold text-white"}`}>Forever free, even after the launch</p>
+                                 <p className={`${index % 2 == 0 ? "${plusJakartaSans.className} text-xs font-semibold text-[#656565]" : "${plusJakartaSans.className} text-xs font-semibold text-white"}`}>Flexible options for every type of learner</p>
                                  <div className="flex items-center gap-3 mt-5 mb-7">
                                     <p className={`${index % 2 == 0 ? "text-[40px] leading-[48px] font-bold ${plusJakartaSans.className} text-black" : "text-[40px] leading-[48px] font-bold ${plusJakartaSans.className} text-white"}`}>{plans?.prices?.[0]?.currency} {plans?.prices?.[0]?.price}</p>
                                     <span className={`${index % 2 == 0 ? "${plusJakartaSans.className} text-[#656565] font-semibold text-xs" : "${plusJakartaSans.className} text-white font-semibold text-xs"}`}>per seat <br></br>
@@ -266,12 +277,13 @@ export default function Home() {
                                        <>
                                           <div className="pt-7">
                                              <ul>
-                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-[#656565] flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Lorem Ipsum</li>
-                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-[#656565] flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Lorem Ipsum</li>
-                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-[#656565] flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Lorem Ipsum</li>
-                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-[#656565] flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Lorem Ipsum</li>
-                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-[#656565] flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Lorem Ipsum</li>
-                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-[#656565] flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Lorem Ipsum</li>
+                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-[#656565] flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Unlimited Game Play</li>
+                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-[#656565] flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Daily Puzzles</li>
+                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-[#656565] flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Daily BOT Games</li>
+                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-[#656565] flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Advertisements</li>
+                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-[#656565] flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Daily Game Reviews</li>
+                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-[#656565] flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Move Explanations</li>
+                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-[#656565] flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Performance Insights</li>
                                              </ul>
                                           </div>
                                        </>
@@ -279,12 +291,13 @@ export default function Home() {
                                        <>
                                           <div className="pt-7">
                                              <ul>
-                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-white flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Lorem Ipsum</li>
-                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-white flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Lorem Ipsum</li>
-                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-white flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Lorem Ipsum</li>
-                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-white flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Lorem Ipsum</li>
-                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-white flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Lorem Ipsum</li>
-                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-white flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Lorem Ipsum</li>
+                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-white flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Unlimited Game Play</li>
+                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-white flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Daily Puzzles</li>
+                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-white flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Daily BOT Games</li>
+                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-white flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Advertisements</li>
+                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-white flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Daily Game Reviews</li>
+                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-white flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Move Explanations</li>
+                                                <li className="${plusJakartaSans.className} text-xs font-semibold text-white flex items-center mb-2"><IoMdCheckmark className="text-[#29C5F6] text-base mr-1" /> Performance Insights</li>
                                              </ul>
                                           </div>
                                        </>

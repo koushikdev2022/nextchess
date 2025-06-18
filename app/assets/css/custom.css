@@ -204,9 +204,12 @@ body {
 }
 
 .testi_box {
-  background: url(../imagesource/testi_box_bg.png) no-repeat 0 0;
-  background-size: contain;
-  width: 97% !important;
+  /* background: url(../imagesource/testi_box_bg.png) no-repeat 0 0;
+  background-size: contain; */
+  /* width: 90% !important; */
+  background: #eaf8ff;
+  border-radius: 15px;
+  min-height: 335px;
 }
 
 /* Home banner css ends here */
