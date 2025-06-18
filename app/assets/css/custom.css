@@ -492,6 +492,22 @@ body {
   .home_banner_area {
     padding: 35px 0;
   }
+
+  .play_one_section {
+    background: #ffffff;
+  }
+  .our_coaches_slider_section .slick-arrow.slick-prev {
+    left: 40%;
+  }
+  .our_coaches_slider_section .slick-arrow.slick-next {
+    right: 40%;
+  }
+
+  .about_section,
+  .courses_section_top,
+  .certificate_completion_sec {
+    padding: 30px 0;
+  }
 }
 
 @media screen and (min-width: 360px) and (max-width: 767px) {

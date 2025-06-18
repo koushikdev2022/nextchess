@@ -12,7 +12,7 @@ import Image from 'next/image';
 const courses = () => {
   return (
     <div>
-      <div className='banner_area'>
+      <div className='banner_area p-4 lg:p-0'>
         <div className="max-w-6xl mx-auto lg:py-4">
           <div className='banner_area_section'>
               <Image src={ourcourseBanner} alt='ourcourseBanner' className="" />
@@ -24,11 +24,11 @@ const courses = () => {
       <div className="courses_section_top">
           <div className="max-w-6xl mx-auto lg:py-4 px-4 lg:px-0">
               <div className="lg:flex">
-                 <div className="w-6/12">
+                 <div className="lg:w-6/12 mb-4 lg:mb-0">
                    <Image src={groupClass} alt='groupClass' className="" />
                  </div>
                  <div className="lg:w-6/12 lg:pl-10">
-                   <h2 className="text-[#0B0B2C] text-3xl lg:text-[40px] lg:leading-[50px] font-extrabold capitalize pb-4 ${plusJakartaSans.className}">The Group Chess Class</h2>
+                   <h2 className="text-[#0B0B2C] text-xl lg:text-[40px] lg:leading-[50px] font-extrabold capitalize pb-4 ${plusJakartaSans.className}">The Group Chess Class</h2>
                    <p className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}">Our group chess classes are interactive live sessions where the instructor introduces a chess concept and assigns a corresponding practice task. Students then present their understanding, apply the concept, and ask questions.</p>
                    <p className="text-[#52b69a] text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-5 ${plusJakartaSans.className} font-bold">Learn. Compete. Grow—Together.</p>
                    <div className='mb-5'>
@@ -53,7 +53,7 @@ const courses = () => {
           <div className="max-w-6xl mx-auto lg:py-4 px-4 lg:px-0">
               <div className="lg:flex">
                  <div className="lg:w-6/12 lg:pr-10">
-                   <h2 className="text-[#0B0B2C] text-3xl lg:text-[40px] lg:leading-[50px] font-extrabold capitalize pb-4 ${plusJakartaSans.className}">The Private Chess Class</h2>
+                   <h2 className="text-[#0B0B2C] text-xl lg:text-[40px] lg:leading-[50px] font-extrabold capitalize pb-4 ${plusJakartaSans.className}">The Private Chess Class</h2>
                    <div className='mb-5'>
                       <p className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-8 ${plusJakartaSans.className}">1-on-1 coaching for focused growth and rapid improvement</p>
                       <ul>
@@ -69,7 +69,7 @@ const courses = () => {
                    <Link className="text-white bg-[#52B69A] font-medium text-xs lg:text-base rounded-[2px] px-3 py-2 lg:px-9 lg:py-3 border-2 border-[#52B69A] hover:bg-white hover:text-[#52B69A]" href="/" passHref>Enroll Now</Link>
                  </div>
 
-                 <div className="w-6/12">
+                 <div className="lg:w-6/12 mt-4 lg:mt-0">
                    <Image src={girlPic} alt='girlPic' className="" />
                  </div>
               </div>
@@ -80,12 +80,12 @@ const courses = () => {
        <div className="certificate_completion_sec">
           <div className="max-w-6xl mx-auto lg:py-4 px-4 lg:px-0">
               <div className="lg:flex">
-                 <div className="w-6/12">
+                 <div className="lg:w-6/12 mb-4 lg:mb-0">
                    <Image src={c4chess_certificate} alt='c4chess_certificate' className="" />
                  </div>
                  <div className="lg:w-6/12 lg:pl-10 flex justify-center items-center">
                    <div>
-                     <h2 className="text-[#0B0B2C] text-3xl lg:text-[40px] lg:leading-[50px] font-extrabold capitalize pb-4 ${plusJakartaSans.className}">Certificate of completion</h2>
+                     <h2 className="text-[#0B0B2C] text-xl lg:text-[40px] lg:leading-[50px] font-extrabold capitalize pb-4 ${plusJakartaSans.className}">Certificate of completion</h2>
                      <p className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}">Students will be provided level completion cortificate after finishing each level.</p>
                    </div>
                  </div>
@@ -98,7 +98,7 @@ const courses = () => {
           <div className="max-w-6xl mx-auto lg:py-0 px-4 lg:px-0">
               <div className="lg:flex">
                  <div className="lg:w-6/12 pl-0 mb-8">
-                    <h2 className="text-white text-3xl lg:text-[46px] lg:leading-[50px] font-bold pb-4 ${plusJakartaSans.className}">Demo Class</h2>
+                    <h2 className="text-white text-xl lg:text-[46px] lg:leading-[50px] font-bold pb-4 ${plusJakartaSans.className}">Demo Class</h2>
                     <p className="text-[#8896AB] font-medium text-base lg:text-[18px] leading-[28px] pb-0 ${plusJakartaSans.className}">Test our teaching process.
                     Experience our innovative approach to learning</p>
                  </div>

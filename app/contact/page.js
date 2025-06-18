@@ -11,7 +11,7 @@ import { IoLocationSharp } from "react-icons/io5";
 const page = () => {
     return (
         <div>
-            <div className='banner_area'>
+            <div className='banner_area p-4 lg:p-0'>
                 <div className="max-w-6xl mx-auto lg:py-4">
                     <div className='banner_area_section'>
                         <Image src={contactBanner} alt='contactBanner' className="" />
@@ -23,7 +23,7 @@ const page = () => {
             <div className="certificate_completion_sec">
                 <div className="max-w-6xl mx-auto lg:py-4 px-4 lg:px-0">
                     <div className="lg:flex">
-                        <div className="w-6/12">
+                        <div className="lg:w-6/12">
                             <div className='flex items-center gap-2 mb-4'>
                                 <div>
                                     <FaPhoneAlt className='text-[#52b69a]' />
@@ -45,7 +45,7 @@ const page = () => {
                         </div>
                         <div className="lg:w-6/12 lg:pl-10 flex justify-center items-center">
                             <div>
-                                <h2 className="text-[#0B0B2C] text-3xl lg:text-[20px] lg:leading-[30px] font-extrabold capitalize pb-0 ${plusJakartaSans.className}">If you have any query feel free to ASK or Contact us!</h2>
+                                <h2 className="text-[#0B0B2C] text-xl lg:text-[20px] lg:leading-[30px] font-extrabold capitalize pb-0 ${plusJakartaSans.className}">If you have any query feel free to ASK or Contact us!</h2>
                                 <p className="text-[#69697B] font-medium text-base leading-[24px] lg:text-[18px] lg:leading-[28px] pb-4 ${plusJakartaSans.className}">Contact us Forms</p>
                                 <div className='form_area'>
                                     <div className='mb-2'>

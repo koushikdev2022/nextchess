@@ -147,7 +147,7 @@ and progress tracking.</p>
                <div className="lg:flex">
                   <div className="w-full lg:pl-10">
                      <span className="text-[#52B69A] text-[18px] font-bold uppercase pb-4 block ${roboto.className}">Progress Type</span>
-                     <h2 className="text-[#0B0B2C] text-3xl lg:text-[60px] lg:leading-[63px] font-extrabold capitalize pb-12 ${plusJakartaSans.className}">Our Level Up <span className="text-[#52B69A]">Process</span></h2>
+                     <h2 className="text-[#0B0B2C] text-3xl lg:text-[60px] lg:leading-[63px] font-extrabold capitalize pb-6 lg:pb-12 ${plusJakartaSans.className}">Our Level Up <span className="text-[#52B69A]">Process</span></h2>
                      <div className="level_up_process_cont_section lg:w-8/12 pt-2">
                         <ul>
                            <li>
@@ -205,7 +205,7 @@ stage.</p>
          {/* Our Coaches section start here */}
          <div className="our_coaches_section">
             <div className="max-w-6xl mx-auto lg:py-4 px-4 lg:px-0">
-               <div className="top_title_section text-center mb-12">
+               <div className="top_title_section text-center mb-0 lg:mb-12">
                   <span className="text-[#D9ED92] text-[18px] font-bold uppercase pb-4 block ${roboto.className}">OUR CHESS</span>
                   <h2 className="text-white text-3xl lg:text-[60px] lg:leading-[63px] font-extrabold capitalize pb-4 ${plusJakartaSans.className}">Our Coaches</h2>
                </div>

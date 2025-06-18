@@ -26,6 +26,24 @@ const Header = () => {
   const [openRegisterStepOneModal, setOpenRegisterStepOneModal] = useState(false);
   const [userRegid, setUserRegId] = useState()
   const [openRegisterStepTwoModal, setOpenRegisterStepTwoModal] = useState(false);
+
+
+  // For mobile menu start here
+  // Add state to manage navbar collapse
+  const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+
+  // Function to toggle navbar
+  const toggleNavbar = () => {
+    setIsNavbarOpen(!isNavbarOpen);
+  };
+
+  // Function to close navbar when menu item is clicked
+  const closeNavbar = () => {
+    setIsNavbarOpen(false);
+  };
+  // For mobile menu ends here
+
+
   return (
     <div>
       <div className="header_section w-full lg:pb-0 bg-white">
@@ -47,25 +65,25 @@ const Header = () => {
                 <div className="main_menu">
                   <Navbar fluid rounded className="bg-transparent pt-0 pb-0">
                     <div className="flex md:order-2 text-black toggle_point">
-                      <NavbarToggle />
+                       <NavbarToggle onClick={toggleNavbar} />
                     </div>
-                    <NavbarCollapse className="">
-                      <li>
+                    <NavbarCollapse className={isNavbarOpen ? 'block' : 'hidden md:block'}>
+                      <li onClick={closeNavbar}>
                         <Link href="/" passHref>
                           Home
                         </Link>
                       </li>
-                      <li>
+                      <li onClick={closeNavbar}>
                         <Link href="/about" passHref>
                           About
                         </Link>
                       </li>
-                      <li>
+                      <li onClick={closeNavbar}>
                         <Link href="/courses" passHref>
                           Courses
                         </Link>
                       </li>
-                      <li>
+                      <li onClick={closeNavbar}>
                         <Link href="/contact" passHref>
                           Contact
                         </Link>
